@@ -1,0 +1,1 @@
+export { AppengGHReposComponent } from './AppengGHReposComponent';
