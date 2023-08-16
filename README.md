@@ -56,7 +56,7 @@ yarn dev
 
 * Following this change reflect the name accordingly in the AppengGHReposComponent.test.tsx and index.ts.
 
-* In the `ExampleComponent/ExampleComponent.tsx` file replace line #33 from <ExampleFetchComponent /> to <AppengGHReposComponent />. Correspondigly update import statement at the top.
+* In the `ExampleComponent/ExampleComponent.tsx` file replace line #33 from "\<ExampleFetchComponent />" to "\<AppengGHReposComponent />". Correspondigly update import statement at the top.
 
 ### Ensure AppengGHReposComponent is now being used
 * When you navigate to http://localhost:3000/appeng-gh-repos you should see our AppengReposComponent showing "appeng@example.com" email.
