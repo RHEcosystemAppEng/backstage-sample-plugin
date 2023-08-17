@@ -50,12 +50,6 @@ yarn dev
 |ExampleFetchComponent.tsx|AppengGHReposComponent.tsx|
 |ExampleFetchComponent.test.tsx|AppengGHReposComponent.test.tsx|
 
-* In `AppengGHReposComponent/AppengGHReposComponent.tsx`...
-    * Change one of the emails "carolyn.moore@example.com" to "appeng@example.com"
-    * Rename function ExampleFetchComponent() to AppengGHReposComponent().
-
-* Following this change reflect the name accordingly in the AppengGHReposComponent.test.tsx and index.ts.
-
 * In the `ExampleComponent/ExampleComponent.tsx` file replace line #33 from "\<ExampleFetchComponent />" to "\<AppengGHReposComponent />". Correspondigly update import statement at the top.
 
 ### Ensure AppengGHReposComponent is now being used
