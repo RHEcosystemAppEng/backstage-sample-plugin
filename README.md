@@ -70,13 +70,6 @@ http://localhost:3000/appeng-gh-repos
 |1|ExampleFetchComponent.tsx|AppengGHReposComponent.tsx|
 |2|ExampleFetchComponent.test.tsx|AppengGHReposComponent.test.tsx|
 
-* In `AppengGHReposComponent/AppengGHReposComponent.tsx`...
-    * Change one of the emails "carolyn.moore@example.com" to "appeng@example.com".
-    * We did this minor change to see later, the app uses our new component that we are creating in this step.
-    * Rename function ExampleFetchComponent() to AppengGHReposComponent().
-
-* Following this change, reflect the name accordingly in the `AppengGHReposComponent.test.tsx` and `index.ts`.
-
 * In the `ExampleComponent/ExampleComponent.tsx` file replace line #33 from "\<ExampleFetchComponent />" to "\<AppengGHReposComponent />". Correspondingly update import statement at the top.
 
 ### Ensure AppengGHReposComponent is now being used
